@@ -61,12 +61,8 @@ streamlit run main.py
 
 To retrain the model, refer to the training notebook (e.g., `train_model.ipynb`) if included in the repo.
 
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE). Feel free to adapt and use it!
-
 ## 📢 Notes
-- The model achieves moderate accuracy (~65-71%), so predictions may vary with nuanced or creative reviews.
+- The model achieves moderate accuracy (~90%), so predictions may vary with nuanced or creative reviews.
 - Built as part of my machine learning journey!
 
 **Happy Coding! 🎬📊**  
