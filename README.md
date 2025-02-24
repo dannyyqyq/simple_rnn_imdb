@@ -61,6 +61,10 @@ streamlit run main.py
 
 To retrain the model, refer to the training notebook (e.g., `train_model.ipynb`) if included in the repo.
 
+## ⚠️ Challenges Faced
+
+During deployment, the `.h5` model format couldn’t be properly loaded in the Streamlit Cloud environment due to compatibility issues. To resolve this, I updated the model to the native `.keras` format, which Streamlit supports more reliably. This required retraining and resaving the model using `model.save("simple_rnn_model.keras")`.
+
 ## 📢 Notes
 - The model achieves moderate accuracy (~90%), so predictions may vary with nuanced or creative reviews.
 - Built as part of my machine learning journey!
