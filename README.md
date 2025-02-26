@@ -14,8 +14,6 @@ Enter a movie review and get an instant sentiment prediction with a confidence s
 - Classifies reviews as **positive** or **negative** with a **probability score**.
 - Offers a clean, interactive **web interface** via Streamlit.
 
-## 📂 Project Structure
-
 ## 🔧 Installation & Setup
 
 ### Prerequisites
